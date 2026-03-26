@@ -16,7 +16,7 @@ Besides that, I am interested in a few other directions too.
 - [Worldbuilding](/worldbuilding)
 - [Game development](/gamedev)
 - [Researching](/researching)
-- [Math](/math)
+- [Science](/science)
 - [Music](/music)
 
 # Contact
