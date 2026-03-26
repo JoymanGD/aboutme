@@ -1,12 +1,14 @@
 ---
-layout: page
+layout: default
 title: "Math"
 ---
 
-{% assign posts = site.categories.math %}
+## Math
+
+{% assign posts = site.posts | where_exp: "post", "post.categories contains 'math'" %}
 {% if posts and posts.size > 0 %}
 {% for post in posts %}
-  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+### [{{ post.title }}]({{ post.url | relative_url }})
 {% endfor %}
 {% else %}
 <p>No posts yet.</p>
