@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Me as a game developer"
-date: 2026-03-27
+date: 2026-03-26
 categories: [gamedev]
 ---
 
