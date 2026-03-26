@@ -103,17 +103,19 @@ a {
 
 .brand-mark {
   align-items: center;
-  background: linear-gradient(135deg, #3a7cb8, #235682);
   border-radius: 18px;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
-  color: #f5fbff;
   display: inline-flex;
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 1.25rem;
-  font-weight: 700;
   height: 48px;
   justify-content: center;
+  overflow: hidden;
   width: 48px;
+}
+
+.brand-mark img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
 }
 
 .brand-text {
