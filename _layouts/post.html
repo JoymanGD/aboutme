@@ -4,11 +4,11 @@ layout: default
 
 {% assign category = page.categories | first %}
 
-<p><a href="{{ '/' | relative_url }}">Back to Home</a></p>
-{% if category %}
-<p><a href="{{ '/' | append: category | relative_url }}">Back to {{ category | capitalize }}</a></p>
-{% endif %}
-
 <p><small>{{ page.date | date: "%B %-d, %Y" }}</small></p>
 
 {{ content }}
+
+<p><small><a href="{{ '/' | relative_url }}">Home</a></small></p>
+{% if category %}
+<p><small><a href="{{ '/' | append: category | relative_url }}">{{ category | capitalize }}</a></small></p>
+{% endif %}
