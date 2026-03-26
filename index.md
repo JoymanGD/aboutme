@@ -18,3 +18,24 @@ Besides that, I am interested in a few other directions too.
 - [Researching](/researching)
 - [Math](/math)
 - [Music](/music)
+
+# Contact
+
+If you want to reach out, use the form below and your email app will open a draft addressed to me.
+You can also view my [CV](/cv/).
+
+<form class="contact-form" action="mailto:joyman.gamedev@gmail.com" method="post" enctype="text/plain">
+  <label for="contact-name">Name</label>
+  <input id="contact-name" name="name" type="text" placeholder="Your name">
+
+  <label for="contact-email">Email</label>
+  <input id="contact-email" name="email" type="email" placeholder="your@email.com">
+
+  <label for="contact-subject">Subject</label>
+  <input id="contact-subject" name="subject" type="text" placeholder="What is this about?">
+
+  <label for="contact-message">Message</label>
+  <textarea id="contact-message" name="message" rows="6" placeholder="Your message"></textarea>
+
+  <button type="submit">Open email draft</button>
+</form>

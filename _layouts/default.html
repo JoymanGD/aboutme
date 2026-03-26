@@ -28,6 +28,7 @@
         </a>
 
         <nav class="site-nav" aria-label="Primary">
+          <a href="{{ '/cv/' | relative_url }}">CV</a>
           <a href="{{ '/gamedev' | relative_url }}">GameDev</a>
           <a href="{{ '/worldbuilding' | relative_url }}">Worldbuilding</a>
           <a href="{{ '/researching' | relative_url }}">Research</a>
@@ -64,6 +65,10 @@
           {{ content }}
         {% endif %}
       </main>
+
+      <footer class="site-footer">
+        <p>This website is still in progress, and information is being added gradually.</p>
+      </footer>
     </div>
   </body>
 </html>
