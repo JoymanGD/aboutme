@@ -120,8 +120,8 @@ permalink: /cv/
     <article class="cv-card">
       <h2>Notable Projects</h2>
       <ul class="cv-list">
-        <li><strong>Waldem (C++ / DirectX 12):</strong> Custom game engine demonstrating advanced rendering systems, resource management, and performance-focused design.</li>
-        <li><strong>Game Engine v1 (C++ / OpenGL):</strong> Engine with custom scene graph, editor tooling, and modular rendering pipeline.</li>
+        <li><strong><a href="https://github.com/JoymanGD/Waldem">Waldem</a> (C++ / DirectX 12):</strong> Custom game engine demonstrating advanced rendering systems, resource management, and performance-focused design.</li>
+        <li><strong><a href="https://github.com/JoymanGD/Alfred">Alfred</a>:</strong> Home AI assistant project focused on practical automation and personal workflow support.</li>
       </ul>
     </article>
 
