@@ -8,7 +8,4 @@ layout: default
 
 {{ content }}
 
-<p><small><a href="{{ '/' | relative_url }}">Home</a></small></p>
-{% if category %}
-<p><small><a href="{{ '/' | append: category | relative_url }}">{{ category | capitalize }}</a></small></p>
-{% endif %}
+<p><small><a href="{{ '/' | relative_url }}">Home</a>{% if category %} | <a href="{{ '/' | append: category | relative_url }}">{{ category | capitalize }}</a>{% endif %}</small></p>
